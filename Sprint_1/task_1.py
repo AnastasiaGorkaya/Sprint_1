@@ -7,7 +7,7 @@ for i in new_times:
         x = int(i[:-1]) * 60
         minutes = minutes + x
     elif i[-1] == 's':
-         x = (int(i[:-1])//60)
+         x = (int(i[:-1])//60)  # Использую целочисленное деление, чтобы избежать float на результате
          minutes = minutes + x
     else: minutes = minutes + int(i[:-1])
     
