@@ -2,9 +2,8 @@ class TestCase:
     
     def __init__(self):
        self.steps = {}
-       self.result = None
+       self.result = None 
      
-  
     def set_step(self,step_number,step_text):
         self.steps[step_number] = step_text
     

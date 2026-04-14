@@ -5,6 +5,7 @@ world_champions = {
     2014: 'Германия',
     2018: 'Франция',
 }
+
 country = 'Италия'
 world_champions['2022']= 'Аргентина'
 
